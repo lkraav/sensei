@@ -1995,7 +1995,7 @@ class Sensei_Core_Modules
 
             $author = Sensei_Core_Modules::get_term_author( $term->slug );
 
-            if( ! user_can( $author, 'manage_options' ) && isset( $term->name ) ) {
+            if( $author && ! user_can( $author, 'manage_options' ) && isset( $term->name ) ) {
                 $term->name = $term->name . ' (' . $author->display_name . ') ';
             }
 
