@@ -2025,7 +2025,7 @@ class Sensei_Core_Modules
 
 			$author = Sensei_Core_Modules::get_term_author( $term->slug );
 
-			if ( $user_id == $author->ID ) {
+			if ( $author && $user_id == $author->ID ) {
 				// add the term to the teachers terms
 				$users_terms[] = $term;
 			}
