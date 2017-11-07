@@ -3,7 +3,7 @@
  * Plugin Name: Sensei
  * Plugin URI: https://woocommerce.com/products/sensei/
  * Description: A course management plugin that offers the smoothest platform for helping you teach anything.
- * Version: 1.9.19
+ * Version: 1.9.19pl+git
  * Author: WooCommerce
  * Author URI: https://woocommerce.com/
  * License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
