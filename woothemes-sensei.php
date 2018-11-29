@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Sensei
+ * Plugin Name: Sensei (git)
  * Plugin URI: https://woocommerce.com/products/sensei/
  * Description: A course management plugin that offers the smoothest platform for helping you teach anything.
  * Version: 1.12.2

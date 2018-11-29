@@ -1,5 +1,5 @@
 {
-	"name": "woothemes-sensei",
+	"name": "plugins/woothemes-sensei",
 	"description": "A learning management plugin for WordPress, which provides the smoothest platform for helping you teach anything.",
 	"require-dev": {
 		"php": "^5.4 || ^7",
@@ -10,5 +10,8 @@
 		"squizlabs/php_codesniffer": "^3.3.2",
 		"wp-coding-standards/wpcs": "^1.1.0"
 	},
-	"prefer-stable": true
+	"prefer-stable": true,
+	"scripts": {
+		"deploy": "dep deploy --hosts=conversionxl.com -o application=$(composer config name)"
+	}
 }
