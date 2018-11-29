@@ -67,6 +67,9 @@ class Sensei_Notices {
 				'href'  => array(),
 				'title' => array(),
 			),
+			'small' => array(
+				'data-post-status' => array(),
+			),
 		);
 	}
 
