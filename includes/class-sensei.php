@@ -234,17 +234,19 @@ class Sensei_Main {
 		/**
 		 * Hook in WooCommerce functionality
 		 */
-		add_action( 'init', array( 'Sensei_WC', 'load_woocommerce_integration_hooks' ) );
+		#add_action( 'init', array( 'Sensei_WC', 'load_woocommerce_integration_hooks' ) );
 
 		/**
 		 * Hook in WooCommerce Memberships functionality
+		 *
+		 * @todo fix Institute integration
 		 */
-		add_action( 'init', array( 'Sensei_WC_Memberships', 'load_wc_memberships_integration_hooks' ) );
+		#add_action( 'init', array( 'Sensei_WC_Memberships', 'load_wc_memberships_integration_hooks' ) );
 
 		/**
 		 * Hook in WooCommerce Subscriptions functionality
 		 */
-		add_action( 'init', array( 'Sensei_WC_Subscriptions', 'load_wc_subscriptions_integration_hooks' ) );
+		#add_action( 'init', array( 'Sensei_WC_Subscriptions', 'load_wc_subscriptions_integration_hooks' ) );
 	}
 
 	/**
